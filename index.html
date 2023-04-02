@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Beautifier - Jack</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.1/beautify.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Code Beautifier by Jack</h1>
+        <label>
+            <input type="checkbox" id="themeSwitch">
+            Dark Mode
+        </label>
+    </header>
+    <main>
+        <textarea id="inputCode" placeholder="Paste your code here..."></textarea>
+        <button id="beautifyBtn">Beautify</button>
+        <pre><code id="outputCode" class="language-js"></code></pre>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
